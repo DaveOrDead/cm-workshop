@@ -1,0 +1,15 @@
+### Mandatory parameters ###
+
+config_connection_string user=test password=test dbname=feedback sslmode=disable
+config_default_page report_4d_graph
+
+allow report_4d_graph
+allow report_issue_list
+
+allow assets/basic_styles.css
+
+### Optional parameters ###
+
+config_server_name Feedback
+#config_listen_address localhost:4200
+#config_authentication_type basic
