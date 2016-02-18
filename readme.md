@@ -10,6 +10,7 @@
 
 ```plpgsql
 create database feedback;
+create role test;
 alter database feedback owner test;
 \password test
 ```
